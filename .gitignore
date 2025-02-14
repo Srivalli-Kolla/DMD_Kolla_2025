@@ -172,3 +172,8 @@ cython_debug/
 *data
 *.gz
 *.png
+._plots_counts
+._plots_decontx_counts
+._decontx_single_sample.R 
+._decontx_multiple_samples.R 
+._decontx_multiple_samples_decontx_counts.R
