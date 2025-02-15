@@ -16,7 +16,7 @@ library(singleCellTK) # To import raw data in form "outs/raw_feature_bc_matrix/"
 
 # Import data
 sce.raw <- importCellRanger(
-  sampleDirs = "/Volumes/One Touch/Wusi/dmd_raw_data/raw_data/A9_2", 
+  sampleDirs = "../raw_data/A9_2", 
   dataType = "raw"
 )
 

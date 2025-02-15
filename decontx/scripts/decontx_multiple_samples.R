@@ -9,10 +9,10 @@ library(singleCellTK)
 library(ggplot2)
 
 # Define sample directories
-sampleDirs <- list.files("/Volumes/One Touch/Wusi/dmd_raw_data/raw_data", full.names = TRUE)
+sampleDirs <- list.files("../raw_data", full.names = TRUE)
 
 # Output directory for plots
-output_dir <- "/Volumes/One Touch/Wusi/DMD_Kolla_2025/decontx/plots"
+output_dir <- "../decontx/plots"
 dir.create(output_dir, showWarnings = FALSE)
 
 # Define marker genes
